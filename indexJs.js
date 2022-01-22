@@ -289,7 +289,7 @@ $(".ad1").click(function() {
 $("#dialog").dialog("open");
 
 $("div[title]").attr("title","come");
-$(".dyn").html(' <img src="img/images-6.webp" alt=" ADS-IMG" class="diag-img">');
+$(".dyn").html(' <img src="images-6.webp" alt=" ADS-IMG" class="diag-img">');
 
 });
 
@@ -299,7 +299,7 @@ $(".ad2").click(function() {
 
 $("#dialog").dialog("open");
 
-$(".dyn").html('<img src="img/images-7.webp" alt=" ADS-IMG" class="diag-img"> ');
+$(".dyn").html('<img src="images-7.webp" alt=" ADS-IMG" class="diag-img"> ');
 
 });
 
