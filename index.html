@@ -1,22 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GYstatistic.com</title>
 
-  <title>HTML</title>
-  
-  <!-- HTML -->
-  
+    <link rel="stylesheet" href="css/indexStyle.css">
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet"> 
+
+<script src = "https://code.jquery.com/jquery-1.10.2.js"></script> 
+
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+ 
+
+  
+
+
+
+	<link href="css/jquery-ui.css" rel="stylesheet">
+
+	<link href="css/jquery-ui.theme.css" rel="stylesheet">
+
+
+<script text="text/javascript" src="js/jquery.js"></script>
+
+<script src="js/jquery-ui.js"></script>
+
+
+   <script text="text/javascript" src="js/indexJs.js"></script>
+
+
+
+
 </head>
-
 <body>
-  <p>hello world chile</p>
-  <!-- Project -->
-  <script src="main.js"></script>
+   <div class="header">
+    <hr>  
+       <div class="container">
+           <div class="logo">
+            <a href="#"> <span>GY</span>STATISTIC.COM </a>
+           </div>
+           <div class="contacts">
+            <a href="#" class="hide">ADDRESS</a>
+            <a href="#" class="hide">PHONE NUMBER</a>
+            <a href="#" class="hide">EMAIL</a>
+            <a href="#" class="hide">SOCIAL MEDIA INFO</a>
+            <a href="#" class="contact"> CONTACT US </a>
+           </div> 
+           
+       <div class="menu">
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+              </div>
+
+       </div>
+       <hr>  
+   </div> 
+
+   <div class="content">
+<!--  ADS DISPLAY LINE -->
+
+<div class="adshow">
+    <div class="box ad1">
+<div class="ads-img "> 
+<img src="img/images-6.webp">
+</div>
+
+    </div>
+
+    <div class="box ad2">
+        <div class="ads-img">
+<img src="img/images-7.webp">
+ </div>
+
+    </div>
+
+    <div class="box">
+        <div class="ads-img">
+<img src="img/Picture_18_Tea.jpg">
+ </div>
+        
+    </div>
+
+    <div class="box">
+        <div class="ads-img"> 
+<img src="img/Picture_11_Buildingcurve.jpg ">
+</div>
+
+    </div>
+
+    <div class="box">
+        <div class="ads-img"> 
+<img src="img/Picture_10_Buidingview.jpg">
+</div>
+
+    </div>
+
+    <div class="box">
+        <div class="ads-img"> 
+<img src="img/images-7.webp">
+</div>
+
+    </div>
+
+    <div class="box">
+        <div class="ads-img"> 
+<img src="img/images-7.webp">
+</div>
+
+    </div>
+
+    <div class="box">
+        <div class="ads-img"> 
+<img src="img/images-7.webp">
+</div>
+
+    </div>
+
+</div>
+
+<!-- showcase -->
+<div class="showcase">
+    <div class="box">
+        <img src="img/Picture_10_Buidingview.jpg">
+    </div>
+
+    <div class="box">  
+<img src="img/Picture_08_Lake.jpg">
+</div>
+    <div class="box">
+<img src="img/Picture_06_Snow.jpg">
+</div>
+    <div class="box">
+<img src="img/Picture_09_Village.jpg">
+</div>
+    <div class="box">
+<img src="img/Picture_05_Stream.jpg">
+</div>
+</div>
+
+
+<script>
+        var c=0;
+        var t=0; var timer1=0;
+        function timecount (){
+// document.getElementById('txt').value=c;
+$(document).ready(function() {
+$('#txt').html(c);
+// $('.timer').html(c);
+// alert(c);
+});
+c=c+1;
+t=setTimeout('timecount()', 1000);
+        }
+
+        function dotimer() {
+            if(!timer1) {
+                timer1=1;
+                timecount();
+            }
+        }
+
+</script>
+
+
+<div id="dialog" title="Ads">
+
+<div class="dyn">  </div>
+</div> 
+
+<!--
+<div id="dialog" title="">
+
+<img src="img/images-6.webp" alt=" ADS-IMG" class="diag-img">
+
+</div>
+
+-->
+
+
+
+
+ </div>
+<script>
+function load_home1() { 
+document.getElementById("dialog").innerHTML='<object type="text/html" data="index.html" ></object>'; }
+
+ </script>
+
+<h3 class="blg">  MY BLOGS  </h3>
+
+<div id="accordion">
+
+<h3>First header</h3>
+
+<div>First content panel
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga explicabo architecto, sint corporis veniam laborum facilis sed eos saepe laudantium sunt laboriosam eaque tenetur, iste necessitatibus assumenda facere inventore. Sit.</p>
+</div>
+
+<h3>Second header</h3>
+
+<div>Second content panel
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga explicabo architecto, sint corporis veniam laborum facilis sed eos saepe laudantium sunt laboriosam eaque tenetur, iste necessitatibus assumenda facere inventore. Sit.</p>
+
+</div>
+
+
+<h3  class="act">Third header  </h3>
+
+<div>Third content panel
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga explicabo architecto, sint corporis veniam laborum facilis sed eos saepe laudantium sunt laboriosam eaque tenetur, iste necessitatibus assumenda facere inventore. Sit.</p>
+</div>
+
+<h3>Fourth header</h3>
+
+<div>Fourth content panel
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga explicabo architecto, sint corporis veniam laborum facilis sed eos saepe laudantium sunt laboriosam eaque tenetur, iste necessitatibus assumenda facere inventore. Sit.</p>
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga explicabo architecto, sint corporis veniam laborum facilis sed eos saepe laudantium sunt laboriosam eaque tenetur, iste necessitatibus assumenda facere inventore. Sit.</p>
+
+</div>
+
+</div>
+
+
+<script> 
+		//window.open("https://eyehunts.com/", "_self") ;
+//$(document).ready(function(){     
+  // $('#content').load("index.html/", "_self");
+
+
+//});
+
+	</script>
+ 
+
+
+
+
+
+ <script>
+
+
+ //function load_home(){ 
+
+function load_home() { 
+document.getElementById("self").innerHTML='<object type="text/html" data="index.html" ></object>'; }
+
+ </script>
+
+
+
+<div class="showMenu" >
+    <button class="soon1">TAKE QUESTIONAIRE <span class="status1">COMING SOON</span></button>
+
+    <button class="soon2">SEARCH FOR QUESTIONAIRE <span class="status2">COMING SOON</span></button>
+
+    <button class="soon3">IN A MINUTE QUIZ <span class="status3">COMING SOON</span></button>
+
+    <button class="soon4">SIGN IN/SIGN UP <span class="status4">COMING SOON</span></button>
+
+    <button class="ads">ADS</button>
+    <button class="blog">MY SIDE BLOG</button>
+    <button class="showcontact" > <a href="#jump">CONTACT INFO </a> </button>
+    <!-- <a href="#">TAKE QUESTIONAIR</a>
+    <a href="#">SEARCH FOR QUESTIONAIR </a>
+    <a href="#">SIGN IN/SIGN UP</a>
+    <a href="#">ADS</a>
+    <a href="#"> MY SIDE BLOG</a> -->
+
+
+
+
+</div>
+
+<footer>
+Copyright 2022 &copy; All right reserved <br /> <span class="ft">GYstatistics.com</span>
+
+<div class="footercon" id="jump">
+<br/>
+<hr>
+ <a href="#" class="hide"> CONTACT US </a>
+<hr>
+   <br/>       
+ <a href="#" class="hide">ADDRESS</a>
+            <a href="#" class="hide">PHONE NUMBER</a>
+            <a href="#" class="hide">EMAIL</a>
+            <a href="#" class="hide">SOCIAL MEDIA INFO</a>
+           
+           </div>
+
+</footer>
+   </div>
+ 
 </body>
 </html>
